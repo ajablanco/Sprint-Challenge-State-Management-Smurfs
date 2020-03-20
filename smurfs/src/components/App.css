@@ -1,5 +1,10 @@
+body {
+  background-color: rgb(255, 248, 252);
+}
+
 .App {
   text-align: center;
+  margin: 2%;
 }
 
 .listForm {
@@ -8,3 +13,7 @@
   align-items: center;
 }
 
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}

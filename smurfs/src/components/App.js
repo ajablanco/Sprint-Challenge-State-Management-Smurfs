@@ -11,6 +11,8 @@ const App = () => {
     setSmurfs([...smurfs, newSmurf]);
   }
 
+
+
   useEffect(() => {
     axios
     .get('http://localhost:3333/smurfs')

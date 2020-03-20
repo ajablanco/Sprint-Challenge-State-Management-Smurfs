@@ -41,13 +41,15 @@ const handleChanges = e => {
 
   return (
     <div>
-      <form>
+      <form style={{textAlign:"center", marginBottom: "10%"}}>
+          <h1>Add a Smurf</h1>
         <TextField
           defaultValue=""
           name="name"
           type="text"
           placeholder="Enter name..."
           onChange={handleChanges}
+          style={{width: "300px"}}
         />
         <br/>
         <br/>
@@ -57,6 +59,7 @@ const handleChanges = e => {
           type="text"
           placeholder="Enter age..."
           onChange={handleChanges}
+          style={{width: "300px"}}
         />
         <br/>
         <br/>
@@ -66,6 +69,7 @@ const handleChanges = e => {
           type="text"
           placeholder="Enter height..."
           onChange={handleChanges}
+          style={{width: "300px"}}
         />
         <br/>
         <br/>
@@ -74,8 +78,9 @@ const handleChanges = e => {
           color="secondary"
           type="submit"
           onClick={handleSubmit}
+          style={{width: "300px"}}
         >
-          Add Smurf
+          Submit
         </Button>
       </form>
     </div>
